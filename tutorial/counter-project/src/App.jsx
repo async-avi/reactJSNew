@@ -23,8 +23,11 @@ function App() {
       <div className="card">
         <button onClick={increaseCount}>Increase</button>
         <br />
-        <button onClick={decreaseCount}>Decrease</button>
+        <button style={{ margin: "10px" }} onClick={decreaseCount}>
+          Decrease
+        </button>
       </div>
+      <h5>Note: Value of Count is ranged between -20 and 20 </h5>
     </>
   );
 }
